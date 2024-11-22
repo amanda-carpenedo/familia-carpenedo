@@ -1,0 +1,556 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+
+body {
+    font-family: "Poppins", serif;
+}
+
+.interface {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    padding: 40px 0 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    height: 100px;
+    transition: .5s;
+}
+
+header .interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu-desktop nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+
+header .menu-desktop nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: inline-block;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0 40px;
+    transition: .5s;
+}
+
+header .menu-desktop nav ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+/* HEADER EFEITO MENU */
+
+header.rolar {
+    background-color: #f7d8cb;
+    color: #613737;
+    box-shadow: 0 0 10px black;
+    z-index: 999;
+}
+
+header.rolar .menu-desktop nav ul li a {
+    color: #613737;
+    border-left: 2px solid #613737;
+    border-right: 2px solid #613737;
+}
+
+header.rolar .menu-desktop nav ul li a:hover {
+    color: white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    background-color: #613737;
+}
+
+
+/* HEADER COLORIDO */
+header .menu-desktop-color nav ul li a {
+    color: #613737;
+    border-left: 2px solid #613737;
+    border-right: 2px solid #613737;
+
+    transition: .5s;
+}
+
+header .menu-desktop-color nav ul li a:hover {
+    background-color: #613737;
+    color: white;
+}
+
+
+/* HERO */
+
+section.hero-site {
+    height: 98vh;
+    background: url(../hero/plant-heroopacidade2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.hero-site img {
+    max-width: 700px;
+    z-index: 2;
+}
+
+
+
+/* SOBRE */
+
+section.sobre {
+    padding: 80px 80px 20px;
+
+}
+
+.sobre .itens-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0 10px;
+
+}
+
+.sobre .itens-container .txt-itens h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #613737;
+}
+
+.sobre .itens-container .txt-itens p {
+    text-align: justify;
+    margin-bottom: 40px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+
+.sobre .itens-container .txt-itens a {
+    text-decoration: none;
+    color: white;
+    background-color: #613737;
+    padding: 15px;
+    border-radius: 40px;
+
+}
+
+.sobre .itens-container .txt-itens a:hover {
+    box-shadow: 2px 2px 15px black;
+}
+
+
+/* PRODUTOS */
+
+section.produtos {
+    padding: 10px 0;
+  }
+
+.produtos .img-itens {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+
+.efeito-imagem-um,
+.efeito-imagem-dois,
+.efeito-imagem-tres,
+.efeito-imagem-quatro,
+.efeito-compromisso {
+    visibility: hidden;
+}
+
+
+.produtos .titulo-produtos h2 {
+    font-size: 3rem;
+    margin: 40px 0;
+    color: #613737;
+    padding: 30px 40px;
+}
+
+.produtos .img-itens .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.produtos .img-itens .img-container h3 {
+    font-size: 1.4rem;
+}
+
+.produtos .img-itens .img-container span {
+    font-weight: 400;
+}
+
+.produtos .img-itens img {
+    max-width: 260px;
+}
+
+
+/* SERVIÇOS */
+
+section.servicos {
+    padding: 20px;
+    background-color: #814444;
+
+}
+
+.servicos .txt-servicos h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 300;
+}
+
+
+.servicos .servicos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servicos .tipos-de-servicos-box {
+    border: 4px solid white;
+    margin: 20px;
+    max-width: 500px;
+    box-shadow: 10px 10px 1px #f9e8e1;
+}
+
+.txt-servicos-box {
+    padding: 1rem;
+}
+
+.txt-servicos-box h4 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.txt-servicos-box p {
+    color: white;
+    text-align: justify;
+}
+
+/* CERTIFICAÇÃO */
+
+section.certificacao {
+    padding: 60px;
+    background-color: #f9e8e1;
+}
+
+.certificacao .txt-certificacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificacao .txt-certificacao h3 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+
+.certificacao .txt-certificacao p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0 150px 60px;
+}
+
+.certificacao .txt-certificacao a {
+    text-decoration: none;
+    color: white;
+    background-color: #613737;
+    padding: 15px;
+    border-radius: 40px;
+
+}
+
+.certificacao .txt-certificacao a:hover {
+    box-shadow: 2px 2px 15px black;
+}
+
+/* COMPROMISSO */
+
+section.compromisso {
+    padding: 60px;
+}
+
+.compromisso .titulo-compromisso h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 300;
+
+}
+
+.compromisso .txt-compromisso {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.txt-compromisso .compromisso-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 300px;
+}
+
+
+.txt-compromisso .compromisso-container img {
+    max-width: 200px;
+}
+
+
+.txt-compromisso .compromisso-container .txt-compromisso-box h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
+
+.txt-compromisso .compromisso-container .txt-compromisso-box p {
+    text-align: justify;
+}
+
+/* CONTATO */
+
+section.contato {
+    height: 500px;
+    background-image: url(../galeria/foto-viveiro16.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #ffffff;
+    background-attachment: fixed;
+  
+               
+}
+
+
+
+.contato .txt-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+      
+}
+
+.contato .txt-contato h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0 30px;
+    font-weight: 600;
+
+}
+
+.contato>.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000067;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    
+}
+
+.contato>.interface {
+    height: 100%;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.contato .txt-contato .icons-contato a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 500px;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    padding: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+
+.contato .txt-contato .icons-contato a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.227);
+}
+
+.contato .txt-contato .icons-contato p {
+    font-size: 1.3rem;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    padding: 60px 0 20px;
+    background-color: #f9e8e1;
+}
+
+footer .footer-container {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+
+}
+
+footer .footer-container .left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer .footer-container .left-footer img {
+    max-width: 120px;
+    margin-bottom: 10px;
+}
+
+footer .bottom-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 0;
+}
+
+footer .bottom-footer p {
+    font-size: 0.9rem;
+}
+
+
+/* GALERIA */
+
+section.galeria {
+    padding: 150px 0;
+
+}
+
+.galeria .titulo-galeria h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #613737;
+
+}
+
+.galeria .img-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.galeria .img-galeria img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* HEADER GALERIA */
+
+
+.header-galeria .menu-desktop nav ul li a {
+    text-decoration: none;
+    color: #613737;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: inline-block;
+    border-left: 2px solid #613737;
+    border-right: 2px solid #613737;
+    padding: 0 40px;
+    transition: .5s;
+}
+
+.header-galeria .menu-desktop nav ul li a:hover {
+    background-color: #613737;
+    color: white;
+}
+
+
+/* HORTALIÇAS */
+
+section.hortalicas {
+    padding: 150px;
+}
+
+
+.hortalicas .hortalicas-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.hortalicas .hortalicas-container .hortalicas-box {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.hortalicas .titulo-hortalicas {
+    font-size: 2rem;
+    margin-bottom: 60px;
+    color: #613737;
+    text-align: center;
+}
+
+.hortalicas-box .hortalicas-box-img img {
+    max-width: 200px;
+}
