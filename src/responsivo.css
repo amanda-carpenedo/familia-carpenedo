@@ -4,7 +4,7 @@
 
 
     section.produtos {
-        padding: 45px 50px;
+        padding: 45px 80px;
     }
 
     .produtos .img-itens img {
@@ -148,6 +148,7 @@
 
 @media screen and (max-width: 920px) {
 
+    /* sobre */
     section.sobre {
         padding: 40px 40px 50px;
 
@@ -158,6 +159,12 @@
         align-items: center;
         justify-content: center;
     }
+
+    /* produtos */
+    section.produtos {
+        padding: 45px 40px;
+    }
+
 
     /* certificação */
     .certificacao .txt-certificacao h3 {
@@ -310,7 +317,7 @@
     /* produtos */
 
     .produtos .titulo-produtos h2 {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
         margin-bottom: 30px;
         color: #613737;
 
@@ -357,10 +364,18 @@
 
 
 @media screen and (max-width: 550px) {
+/* sobre */
+.sobre .itens-container .txt-itens h2 {
+    font-size: 2.5rem;
+   
+}
+
+
+
     /* produtos */
 
     .produtos .titulo-produtos h2 {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
         margin-bottom: 30px;
         color: #613737;
 
@@ -466,9 +481,9 @@
 
     section.hero-site {
         height: 115vh;
-       
+
     }
-    
+
     .hero-site img {
         max-width: 500px;
         z-index: 2;
@@ -525,11 +540,11 @@
     }
 
     /* serviços */
-    
-section.servicos {
-    padding: 75px 0 80px;
-   
-}
+
+    section.servicos {
+        padding: 75px 0 80px;
+
+    }
 
     .servicos .txt-servicos h2 {
         font-size: 2.5rem;
