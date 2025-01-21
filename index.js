@@ -12,29 +12,29 @@ document.addEventListener("scroll", () => {
 
 // IMAGEM PRODUTO
 
-window.revelar = ScrollReveal({reset:true})
+window.revelar = ScrollReveal({ reset: true })
 
 revelar.reveal('.efeito-imagem-um', {
     duration: 2000,
-    distance:'90px',
+    distance: '90px',
     delay: 200,
 })
 
 revelar.reveal('.efeito-imagem-dois', {
     duration: 2000,
-    distance:'100px',
+    distance: '100px',
     delay: 300,
 })
 
 revelar.reveal('.efeito-imagem-tres', {
     duration: 2000,
-    distance:'110px',
+    distance: '110px',
     delay: 400,
 })
 
 revelar.reveal('.efeito-imagem-quatro', {
     duration: 2000,
-    distance:'120px',
+    distance: '120px',
     delay: 500,
 })
 
@@ -42,8 +42,22 @@ revelar.reveal('.efeito-imagem-quatro', {
 
 revelar.reveal('.efeito-compromisso', {
     duration: 2000,
-    distance:'90px',
+    distance: '90px',
     delay: 500,
     origin: 'left'
 })
 
+
+
+
+
+
+const menuDiv = document.getElementById ('menu-mobile')
+const btnAnimar = document.getElementById ('btn-menu-mobile')
+
+menuDiv.addEventListener('click', animar)
+
+function animar() {
+    menuDiv.classList.toggle('abrir')
+    btnAnimar.classList.toggle('ativar')
+}

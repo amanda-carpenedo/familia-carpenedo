@@ -8,6 +8,7 @@
     <!-- links css -->
     <link rel="stylesheet" href="./src/reset.css">
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/responsivo.css">
 
     <!-- link fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,9 +27,28 @@
 </head>
 
 <body>
-    <header id="header">
+    <header class="header-historia" id="header-historia">
         <div class="interface">
-            <section class="menu-desktop menu-desktop-color">
+            <section class="menu-desktop-historia">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./index.html#sobre">Sobre</a></li>
+                        <li><a href="./index.html#produtos">Produtos</a></li>
+                        <li><a href="./index.html#servicos">Serviços</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="./index.html#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <button id="btn-menu-mobile" class="botao" onclick="animar()">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <section class="menu-mobile" id="menu-mobile">
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -40,6 +60,7 @@
                     </ul>
                 </nav>
             </section>
+
         </div>
     </header>
 
@@ -55,12 +76,13 @@
                         <img src="./hortalicas/abobrinha.png" alt="">
                     </div>
                     <div class="hortalicas-txt">
-                        <h3>Mudas de Abobrinha</h3>
+                        <h3>Hortaliças fruto</h3>
                         <ul>
-                            <li>Adele</li>
-                            <li>Daiane</li>
-                            <li>Flora</li>
-                            <li>Sandy</li>
+                            <li>Berinjela</li>
+                            <li>Pimentas e Pimentões</li>
+                            <li>Pepinos</li>
+                            <li>Tomates</li>
+                            <li>Entre outras</li>
                         </ul>
                     </div>
                 </div>
@@ -70,101 +92,31 @@
                         <img src="./hortalicas/alface.png" alt="">
                     </div>
                     <div class="hortalicas-txt">
-                        <h3>Mudas de Alface</h3>
+                        <h3>Hortaliças folhosas</h3>
                         <ul>
-                            <li>Americana Aruanas</li>
-                            <li>Americana Diva</li>
-                            <li>Americana Laurel</li>
-                            <li>Americana Lucy Brown</li>
-                            <li>Americana Raider Plus</li>
-                            <li>Americana Serena</li>
-                            <li>Americana Tiffany</li>
+                            <li>Agrião</li>
+                            <li>Alfaces</li>
+                            <li>Almeirões e Chicórias</li>
+                            <li>Couves</li>
+                            <li>Entre outras</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="hortalicas-box">
-                    <div class="hortalicas-box-img">
-                        <img src="./hortalicas/agriao.png" alt="">
-                    </div>
-                    <div class="hortalicas-txt">
-                        <h3>Mudas de Agrião</h3>
-                        <ul>
-                            <li>Gigante Redondo</li>
-                            <li>Seco SH</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="hortalicas-box">
-                    <div class="hortalicas-box-img">
-                        <img src="./hortalicas/berinjela.png" alt="">
-                    </div>
-                    <div class="hortalicas-txt">
-                        <h3>Mudas de Berinjela</h3>
-                        <ul>
-                            <li> Napoli</li>
-                        </ul>
-                    </div>
-                </div>
 
                 <div class="hortalicas-box">
                     <div class="hortalicas-box-img">
                         <img src="./hortalicas/cebola.png" alt="">
                     </div>
                     <div class="hortalicas-txt">
-                        <h3>Mudas de Cebola</h3>
+                        <h3>Hortaliças bulbos e raízes</h3>
                         <ul>
-                            <li>Itaparica</li>
-                            <li> Roxa Sensation</li>
+                            <li>Beterraba</li>
+                            <li>Cebola</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="hortalicas-box">
-                    <div class="hortalicas-box-img">
-                        <img src="./hortalicas/couve.png" alt="">
-                    </div>
-                    <div class="hortalicas-txt">
-                        <h3>Mudas de Couve</h3>
-                        <ul>
-                            <li>Kobe</li>
-                            <li>Hi Crop</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="hortalicas-box">
-                    <div class="hortalicas-box-img">
-                        <img src="./hortalicas/couveflor.png" alt="">
-                    </div>
-                    <div class="hortalicas-txt">
-                        <h3>Mudas de Couve-flor</h3>
-                        <ul>
-                            <li>Alpina</li>
-                            <li>Champagne</li>
-                            <li>Flamenco</li>
-                            <li>Vera</li>
-                            <li>Verona</li>
-                            <li>Vigo</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="hortalicas-box">
-                    <div class="hortalicas-box-img">
-                        <img src="./hortalicas/pepino.png" alt="">
-                    </div>
-                    <div class="hortalicas-txt">
-                        <h3>Mudas de Pepino</h3>
-                        <ul>
-                            <li>Aladim</li>
-                            <li>Valent</li>
-                            <li>Soldier</li>
-                            <li>Taiko</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
     </section>

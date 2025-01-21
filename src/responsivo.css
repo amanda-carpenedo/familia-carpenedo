@@ -1,0 +1,640 @@
+@media screen and (max-width: 1440px) {
+
+    /* produtos */
+
+
+    section.produtos {
+        padding: 45px 50px;
+    }
+
+    .produtos .img-itens img {
+        max-width: 200px;
+    }
+
+    /* serviços */
+
+    section.servicos {
+        padding: 20px 0 80px;
+        height: 100vh;
+        background-image: url(../servicos/galeria4.jpg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        color: #ffffff;
+        background-attachment: fixed;
+
+    }
+
+    /* galeria */
+
+
+    .galeria .titulo-galeria h2 {
+        text-align: center;
+
+    }
+
+    .galeria .img-galeria {
+        justify-content: space-around;
+        gap: 40px;
+
+    }
+
+    .galeria .img-galeria img {
+        max-width: 300px;
+    }
+
+    /* certificação */
+
+    .certificacao .txt-certificacao h3 {
+        padding: 0px 20px;
+
+    }
+
+}
+
+@media screen and (max-width: 1340px) {
+
+    section.hortalicas {
+        padding: 150px 60px 80px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1250px) {
+
+    /* cabeçalho responsivo */
+    header .menu-desktop {
+        display: none;
+    }
+
+    header .menu-desktop-historia {
+        display: none;
+        background-color: #f7d8cb;
+    }
+
+    header .botao {
+        display: block;
+        z-index: 100;
+
+    }
+
+    header .interface {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    header .menu-mobile.abrir {
+        visibility: visible;
+        height: 120vh;
+
+    }
+
+    .produtos .img-itens {
+        gap: 25px;
+
+    }
+
+    .produtos .img-itens .img-container {
+        margin-bottom: 5px;
+
+    }
+
+
+    /* história */
+
+    section.historia {
+        padding: 40px 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 1115px) {
+
+    /* compromisso */
+    .compromisso .txt-compromisso {
+        justify-content: space-around;
+    }
+
+}
+
+
+@media screen and (max-width: 974px) {
+
+    /* serviços */
+
+    .txt-servicos-box {
+        padding: 15px 30px;
+    }
+
+    .servicos .txt-servicos h2 {
+        margin: 20px 0;
+
+    }
+
+    .servicos .tipos-de-servicos-box {
+        width: 800px;
+        height: 200px;
+        box-shadow: 10px -5px 1.3px #f9e8e1;
+        border-radius: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 920px) {
+
+    section.sobre {
+        padding: 40px 40px 50px;
+
+    }
+
+    section.hero-site {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* certificação */
+    .certificacao .txt-certificacao h3 {
+        font-size: 2.2rem;
+
+    }
+
+}
+
+
+@media screen and (max-width: 810px) {
+
+    /* serviços */
+    .servicos .tipos-de-servicos-box {
+        width: 800px;
+        height: 230px;
+    }
+
+    /* certificação */
+    .certificacao .txt-certificacao h3 {
+        font-size: 2.1rem;
+
+    }
+
+    /* compromisso */
+    section.compromisso {
+        padding: 100px;
+    }
+
+
+    .txt-compromisso .compromisso-container {
+        margin-bottom: 30px;
+
+    }
+
+
+    .txt-compromisso .compromisso-container .txt-compromisso-box h3 {
+        margin-bottom: 10px;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+    .hero-site img {
+        max-width: 600px;
+        z-index: 2;
+    }
+
+    /* produtos */
+
+    .produtos .img-itens {
+        gap: 25px;
+    }
+
+    .produtos .img-itens .img-container {
+        margin-bottom: 5px;
+
+    }
+
+    /* certificação */
+
+    .certificacao .txt-certificacao .img-certificacao img {
+        width: 150px;
+        max-height: 300px;
+
+    }
+
+    /* hortaliças */
+
+    section.hortalicas {
+        padding: 150px 60px 80px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 725px) {
+
+    /* certificação */
+
+    setion.certificacao {
+        padding: 40px 10px;
+
+    }
+
+    .certificacao .txt-certificacao h3 {
+        font-size: 1.8rem;
+        line-height: 40px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+    /* serviços */
+    .servicos .tipos-de-servicos-box {
+        width: 800px;
+        height: 230px;
+    }
+
+    .txt-servicos-box ul li {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .txt-servicos-box p {
+        font-size: 1.1rem;
+    }
+
+    /* hortaliças */
+
+
+    section.hortalicas {
+        padding: 150px 60px 30px;
+    }
+
+    .hortalicas-box .hortalicas-txt {
+        width: 180px;
+    }
+
+
+    .hortalicas .titulo-hortalicas {
+        font-size: 1.8rem;
+    }
+
+    .hortalicas-box .hortalicas-box-img img {
+        max-width: 130px;
+
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 635px) {
+
+    /* produtos */
+
+    .produtos .titulo-produtos h2 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #613737;
+
+    }
+
+    /* certificação */
+
+    .certificacao .txt-certificacao .img-certificacao img {
+        width: 140px;
+        max-height: 200px;
+
+    }
+
+    /* contato */
+
+    .contato .txt-contato .icons-contato a {
+        font-size: 2.5rem;
+        width: 400px;
+
+    }
+
+    /* footer */
+
+    footer {
+        padding: 30px 0 20px;
+    }
+
+    footer .footer-container .left-footer p,
+    footer .footer-container .right-footer {
+        font-size: 0.9rem;
+    }
+
+    footer .footer-container {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 550px) {
+    /* produtos */
+
+    .produtos .titulo-produtos h2 {
+        font-size: 2.2rem;
+        margin-bottom: 30px;
+        color: #613737;
+
+    }
+
+    .produtos .titulo-produtos p {
+        margin-bottom: 35px;
+        font-size: 1.2rem;
+    }
+
+
+    /* certificação */
+    .certificacao .txt-certificacao h3 {
+        font-size: 1.5rem;
+    }
+
+    .certificacao .txt-certificacao .img-certificacao img {
+        width: 120px;
+        max-height: 200px;
+
+    }
+
+    /* compromisso */
+    section.compromisso {
+        padding: 60px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 520px) {
+    /* serviços */
+
+    .servicos .txt-servicos h2 {
+        margin: 20px 0;
+
+    }
+
+    .servicos .tipos-de-servicos-box {
+        width: 800px;
+        height: 260px;
+    }
+
+    section.servicos {
+        height: 800px;
+    }
+
+
+    /* história */
+
+    section.historia {
+        padding: 40px 20px;
+    }
+
+    .historia .txt-itens-historia h2 {
+        font-size: 2.3rem;
+
+    }
+
+    .historia .txt-itens-historia p {
+        font-size: 1.1rem;
+
+    }
+
+    .historia .img-itens-historia {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    /* footer */
+
+    footer .footer-container .left-footer p,
+    footer .footer-container .right-footer {
+        font-size: 0.8rem;
+    }
+
+    footer .footer-container {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 392px) {
+
+    html {
+        scroll-padding-top: 16px;
+    }
+
+
+    /* hero */
+
+    section.hero-site {
+        height: 115vh;
+       
+    }
+    
+    .hero-site img {
+        max-width: 500px;
+        z-index: 2;
+    }
+
+    /* sobre */
+
+    section.sobre {
+        padding: 30px 30px 60px;
+
+    }
+
+    .sobre .itens-container .txt-itens h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #613737;
+    }
+
+    .sobre .itens-container .txt-itens p {
+        text-align: justify;
+        margin-bottom: 50px;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+
+    .sobre .itens-container .txt-itens a {
+        text-decoration: none;
+        color: white;
+        background-color: #613737;
+        padding: 15px;
+        border-radius: 40px;
+    }
+
+
+    /* produtos */
+
+    section.produtos {
+        padding: 90px 30px;
+    }
+
+    .produtos .titulo-produtos h2 {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    .produtos .img-itens .img-container {
+        margin-bottom: 5px;
+    }
+
+    .produtos .img-itens {
+        gap: 40px;
+
+    }
+
+    /* serviços */
+    
+section.servicos {
+    padding: 75px 0 80px;
+   
+}
+
+    .servicos .txt-servicos h2 {
+        font-size: 2.5rem;
+        margin: 20px 0;
+    }
+
+    .servicos .tipos-de-servicos-box {
+        width: 800px;
+        height: 330px;
+    }
+
+    section.servicos {
+        height: 980px;
+    }
+
+    .txt-servicos-box p {
+        text-align: left;
+        font-size: 1.3rem;
+
+    }
+
+    .txt-servicos-box ul li {
+        font-size: 1.3rem;
+    }
+
+    /* certificação */
+
+
+    .certificacao .txt-certificacao h3 {
+        font-size: 1.6rem;
+        line-height: 35px;
+        margin: 0 0 30px;
+        padding: 0;
+    }
+
+
+    .certificacao .txt-certificacao .img-certificacao img {
+        width: 110px;
+        max-height: 200px;
+
+    }
+
+    /* compromissos */
+
+    .compromisso .titulo-compromisso h2 {
+        font-size: 2.3rem;
+        line-height: 45px;
+    }
+
+    .txt-compromisso .compromisso-container .txt-compromisso-box p {
+        font-size: 1.3rem;
+    }
+
+    /* história */
+
+    section.historia {
+        padding: 40px 20px;
+    }
+
+
+    .historia .txt-itens-historia p {
+        font-size: 1.15rem;
+
+    }
+
+    .historia .img-itens-historia img {
+        max-width: 330px;
+    }
+
+    /* hortaliças */
+
+    section.hortalicas {
+        padding: 150px 20px 30px;
+    }
+
+    .hortalicas-box .hortalicas-box-img img {
+        max-width: 150px;
+    }
+
+
+    .hortalicas .titulo-hortalicas h2 {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    /* footer */
+
+
+    footer {
+        padding: 30px 0 20px;
+    }
+
+    footer .footer-container .left-footer p,
+    footer .footer-container .right-footer {
+        font-size: 0.9rem;
+    }
+
+    footer .footer-container {
+        gap: 10px;
+    }
+
+    footer .footer-container .left-footer {
+        width: 40%;
+
+    }
+
+}

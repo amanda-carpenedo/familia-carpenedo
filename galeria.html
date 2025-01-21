@@ -8,6 +8,7 @@
     <!-- links css -->
     <link rel="stylesheet" href="./src/reset.css">
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/responsivo.css">
 
     <!-- link fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,20 +27,40 @@
 </head>
 
 <body>
-    <header id="header">
+    <header class="header-historia" id="header-historia">
         <div class="interface">
-            <section class="menu-desktop menu-desktop-color">
+            <section class="menu-desktop-historia">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#produtos">Produtos</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./index.html#sobre">Sobre</a></li>
+                        <li><a href="./index.html#produtos">Produtos</a></li>
+                        <li><a href="./index.html#servicos">Serviços</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="./index.html#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <button id="btn-menu-mobile" class="botao" onclick="animar()">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <section class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#sobre">Sobre</a></li>
+                        <li><a href="index.html#produtos">Produtos</a></li>
+                        <li><a href="index.html#servicos">Serviços</a></li>
                         <li><a href="galeria.html">Galeria</a></li>
                         <li><a href="index.html#contato">Contato</a></li>
                     </ul>
                 </nav>
             </section>
+
         </div>
     </header>
 
@@ -58,12 +79,12 @@
                 <img src="./galeria/galeria7.jpg" alt="">
                 <img src="./galeria/galeria6.jpg" alt="">
                 <img src="./galeria/foto-viveiro16.jpg" alt="">
-                <img src="./hero/plant-heroopacidade2.png" alt="">
+                <img src="./galeria/foto-viveiro16.jpg" alt="">
             </div>
         </div>
     </section>
 
-    
+
     <footer>
         <div class="interface">
             <div class="footer-container">

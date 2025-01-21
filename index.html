@@ -8,6 +8,7 @@
     <!-- links css -->
     <link rel="stylesheet" href="./src/reset.css">
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/responsivo.css">
 
     <!-- link fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,6 +42,26 @@
                     </ul>
                 </nav>
             </section>
+
+            <button id="btn-menu-mobile" class="botao" onclick="animar()">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <section class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#sobre">Sobre</a></li>
+                        <li><a href="index.html#produtos">Produtos</a></li>
+                        <li><a href="index.html#servicos">Serviços</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="index.html#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+
         </div>
     </header>
 
@@ -55,13 +76,15 @@
             <article class="itens-container">
                 <div class="txt-itens">
                     <h2>Quem somos?</h2>
-                    <p>Em nossa propriedade, cultivamos com paixão uma variedade de hortaliças, temperos aromáticos,
-                        plantas medicinais e até mesmo as fascinantes Plantas Alimentícias Não Convencionais (PANCs).
-                        Com raízes fincadas na tradição familiar, combinamos técnicas ancestrais com conhecimentos
-                        modernos para oferecer produtos orgânicos, cultivados com respeito à natureza e à saúde. Nosso
-                        objetivo é proporcionar uma experiência gastronômica rica e saudável, resgatando sabores
-                        esquecidos e promovendo uma alimentação mais completa e nutritiva. </p>
-                    <a href="#" class="btn-historia">Conheça nossa história</a>
+                    <p>Praticamos a horticultura familiar urbana, propagando e cultivando uma variedade de hortaliças,
+                        temperos, aromáticas, plantas alimentícias não convencionais (PANC) e medicinais. Produzimos em
+                        sistema orgânico de base agroecológica, combinando técnicas ancestrais com recursos tradicionais
+                        e modernos, como bioinsumos. Nosso objetivo é contribuir com plantas alimentícias, aromáticas e
+                        medicinais de qualidade, asseguradas pela certificação orgânica participativa através da Rede
+                        EcoVida de Certificação. Nosso empenho é produzir valorizando variedades de importância
+                        econômica e ecológica para a agricultura orgânica, contribuindo para a segurança alimentar, a
+                        saúde e respeitando o meio ambiente. </p>
+                    <a href="./história.html" class="btn-historia">Conheça nossa história</a>
                 </div>
             </article>
 
@@ -74,6 +97,7 @@
         <div class="interface">
             <div class="titulo-produtos">
                 <h2>O que produzimos?</h2>
+                <p>Mudas e plantas em vasos:</p>
             </div>
             <div class="img-itens">
                 <div class="img-container efeito-imagem-um">
@@ -85,12 +109,12 @@
                     <h3>Temperos</h3>
                 </div>
                 <div class="img-container efeito-imagem-tres">
-                    <a href=""><img src="./produtos/peixinho.png" alt="foto de um pé de alface"></a>
-                    <h3>PANCs <br><span>(Plantas Alimentícias<br> Não Convencionais)</span></h3>
+                    <a href="pancs.html"><img src="./produtos/peixinho.png" alt="foto de um pé de alface"></a>
+                    <h3>PANC<br><span>(Plantas Alimentícias<br> Não Convencionais)</span></h3>
                 </div>
                 <div class="img-container efeito-imagem-quatro">
-                    <a href=""><img src="./produtos/hortela.png" alt="foto de um pé de alface"></a>
-                    <h3>Medicinais</h3>
+                    <a href="medicinais.html"><img src="./produtos/hortela.png" alt="foto de um pé de alface"></a>
+                    <h3>Medicinais e <br> Aromáticas</h3>
                 </div>
 
 
@@ -106,43 +130,28 @@
                 <h2>Outros serviços:</h2>
             </div>
             <div class="servicos-container">
-
-
                 <div class="tipos-de-servicos-box">
                     <div class="txt-servicos-box">
-                        <h4>Consultoria em agricultura orgânica e agroecologia</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione asperiores id ullam,
-                            quibusdam minima obcaecati inventore fugit? Sint, odit incidunt corporis voluptate ad, nobis
-                            quod earum iste suscipit inventore enim?</p>
-                    </div>
-                </div>
-
-                <div class="tipos-de-servicos-box">
-                    <div class="txt-servicos-box">
-                        <h4>Fitossanidade</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto modi quas ex, totam
-                            perspiciatis nemo quibusdam vel? Fuga perspiciatis natus qui ex temporibus doloremque
-                            laborum blanditiis, odit, perferendis optio voluptatem.</p>
-                    </div>
-                </div>
-
-                <div class="tipos-de-servicos-box">
-                    <div class="txt-servicos-box">
-                        <h4>Agricultura urbana</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ab voluptatum tempora
-                            repellendus delectus nesciunt natus ad exercitationem culpa asperiores distinctio ipsum vel
-                            quas sed in consectetur nostrum, rem temporibus.</p>
+                        <h4>Consultoria e Assessoria</h4>
+                        <ul>
+                            <li>Horticultura orgânica e agroecologia;</li>
+                            <li>Cuidados Fitossanitários em sistemas de produção orgânicos;</li>
+                            <li>Agricultura urbana e Hortas Escolares.</li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="tipos-de-servicos-box">
                     <div class="txt-servicos-box">
                         <h4>Workshops</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorum amet laudantium
-                            fugiat expedita impedit dolorem ex explicabo porro, repellendus, eos enim nisi iure atque
-                            distinctio sint maiores culpa. Placeat!</p>
+                        <ul>
+                            <li>Insumos orgânicos para a nutrição de plantas:</li>
+                            <p>biofertilizantes e bokashi.</p>
+                            <li>Remédios homeopáticos para a agricultura.</li>
+                        </ul>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -150,13 +159,13 @@
     <section class="certificacao">
         <div class="interface">
             <article class="txt-certificacao">
-                <h3>Somos um viveiro certificado</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae officiis incidunt maxime omnis
-                    veritatis quos magni sint dolorem molestiae ducimus! Laboriosam eligendi atque quibusdam unde ipsam
-                    nemo, sequi similique voluptatum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius cum
-                    porro sequi nam! Necessitatibus, assumenda, eum ut natus non est rem voluptatum dolores quisquam
-                    voluptate sapiente aliquid ad et veritatis?</p>
-                <a href="">Saiba mais</a>
+                <h3>Somos uma unidade de produção vegetal <strong>certificada</strong></h3>
+                <div class="img-certificacao">
+                    <img src="./certificacao/associacao.png" alt="">
+                    <img src="./certificacao/ecovida.jpg" alt="">
+                    <img src="./certificacao/fae.png" alt="">
+
+                </div>
             </article>
         </div>
     </section>
@@ -173,11 +182,8 @@
                     </div>
                     <div class="txt-compromisso-box">
                         <h3>Utilização consciente da água</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde sequi quod, velit
-                            possimus
-                            nihil nam autem facilis eligendi beatae dolorem nulla quaerat aliquam consequuntur vero
-                            labore
-                            vitae! Vitae, assumenda.</p>
+                        <p>Reuso da água da limpeza de recipientes e ferramentas na irrigação nos canteiros de produção
+                            de matrizes.</p>
                     </div>
 
                 </div>
@@ -186,12 +192,8 @@
                         <img src="./compromissos/compromisso2.png" alt="">
                     </div>
                     <div class="txt-compromisso-box">
-                        <h3>Herbicidas naturais</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde sequi quod, velit
-                            possimus
-                            nihil nam autem facilis eligendi beatae dolorem nulla quaerat aliquam consequuntur vero
-                            labore
-                            vitae! Vitae, assumenda.</p>
+                        <h3>Agrobiodiversidade</h3>
+                        <p>Resgate e propagação de sementes crioulas</p>
                     </div>
 
                 </div>
@@ -200,12 +202,8 @@
                         <img src="./compromissos/compromisso3.png" alt="">
                     </div>
                     <div class="txt-compromisso-box">
-                        <h3>Preservação</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde sequi quod, velit
-                            possimus
-                            nihil nam autem facilis eligendi beatae dolorem nulla quaerat aliquam consequuntur vero
-                            labore
-                            vitae! Vitae, assumenda.</p>
+                        <h3>Energia Solar</h3>
+                        <p>Utilização de painéis fotovoltaicos buscando economia e eficiência energética.</p>
                     </div>
                 </div>
             </article>
