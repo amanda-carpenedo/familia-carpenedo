@@ -104,7 +104,7 @@ header .botao {
     border-radius: 2px;
     cursor: pointer;
     display: none;
-   transform: translateY(-15px);
+    transform: translateY(-15px);
 }
 
 .linha {
@@ -159,7 +159,7 @@ header .menu-mobile {
 
 header .menu-mobile nav {
     width: 100%;
-   
+
 }
 
 header .menu-mobile nav ul {
@@ -169,7 +169,7 @@ header .menu-mobile nav ul {
     align-items: center;
     justify-content: center;
     height: 100vh;
-       
+
 }
 
 header .menu-mobile nav a {
@@ -185,8 +185,6 @@ header .menu-mobile nav a {
 header .menu-mobile nav a:hover {
     background-color: #0000004b;
     color: rgba(255, 255, 255, 0.986);
-  
-     
 
 }
 
@@ -217,8 +215,11 @@ section.hero-site {
 
 
 .hero-site img {
-    max-width: 700px;
+    max-width: 70%;
     z-index: 2;
+    margin: 0 auto;
+    display: block;
+
 }
 
 
@@ -496,16 +497,13 @@ section.contato {
     color: #ffffff;
     background-attachment: fixed;
 
-
 }
-
 
 
 .contato .txt-contato {
     display: flex;
     flex-direction: column;
     gap: 30px;
-
 
 }
 
@@ -535,7 +533,6 @@ section.contato {
     display: flex;
     align-items: center;
     justify-content: center;
-
 
 }
 
@@ -672,30 +669,31 @@ section.hortalicas {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-
-
+   
 }
 
 .hortalicas .hortalicas-container .hortalicas-box {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 60px;
+ 
+  
 }
 
 
 .hortalicas-box .hortalicas-txt {
-    width: 200px;
+    width: 240px;
+  
 }
-
 
 
 .hortalicas .titulo-hortalicas h2 {
     font-size: 3rem;
     margin-bottom: 60px;
     color: #613737;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hortalicas-box .hortalicas-box-img img {
@@ -719,7 +717,7 @@ header.header-historia {
     color: #613737;
     box-shadow: 0 0 10px black;
     z-index: 999;
-  }
+}
 
 header .menu-desktop-historia nav ul li a {
     text-decoration: none;

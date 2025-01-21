@@ -1,8 +1,15 @@
+@media screen and (max-width: 1920px) {
+
+    section.servicos {
+        padding: 20px 0 80px;
+        max-height: 600px;
+    }
+
+}
+
 @media screen and (max-width: 1440px) {
 
     /* produtos */
-
-
     section.produtos {
         padding: 45px 80px;
     }
@@ -15,15 +22,7 @@
 
     section.servicos {
         padding: 20px 0 80px;
-        height: 100vh;
-        background-image: url(../servicos/galeria4.jpg.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-        color: #ffffff;
-        background-attachment: fixed;
-
+        max-height: 700px;
     }
 
     /* galeria */
@@ -154,12 +153,6 @@
 
     }
 
-    section.hero-site {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     /* produtos */
     section.produtos {
         padding: 45px 40px;
@@ -171,6 +164,14 @@
         font-size: 2.2rem;
 
     }
+
+    section.hero-historia {
+        height: 15vh;
+         
+    }
+
+
+
 
 }
 
@@ -211,11 +212,6 @@
 
 
 @media screen and (max-width: 780px) {
-
-    .hero-site img {
-        max-width: 600px;
-        z-index: 2;
-    }
 
     /* produtos */
 
@@ -271,7 +267,7 @@
 
     /* serviços */
     .servicos .tipos-de-servicos-box {
-        width: 800px;
+        width: 600px;
         height: 230px;
     }
 
@@ -288,11 +284,11 @@
 
 
     section.hortalicas {
-        padding: 150px 60px 30px;
+        padding: 150px 30px 30px;
     }
 
     .hortalicas-box .hortalicas-txt {
-        width: 180px;
+        max-width: 180px;
     }
 
 
@@ -336,7 +332,6 @@
     .contato .txt-contato .icons-contato a {
         font-size: 2.5rem;
         width: 400px;
-
     }
 
     /* footer */
@@ -364,12 +359,12 @@
 
 
 @media screen and (max-width: 550px) {
-/* sobre */
-.sobre .itens-container .txt-itens h2 {
-    font-size: 2.5rem;
-   
-}
 
+    /* sobre */
+    .sobre .itens-container .txt-itens h2 {
+        font-size: 2.5rem;
+
+    }
 
 
     /* produtos */
@@ -390,6 +385,7 @@
     /* certificação */
     .certificacao .txt-certificacao h3 {
         font-size: 1.5rem;
+        line-height: 30px;
     }
 
     .certificacao .txt-certificacao .img-certificacao img {
@@ -400,29 +396,59 @@
 
     /* compromisso */
     section.compromisso {
-        padding: 60px;
+        padding: 60px 20px;
     }
 
+    .compromisso .titulo-compromisso h2 {
+        line-height: 45px;
+
+    }
+
+    /* galeria */
+    .galeria .img-galeria img {
+        max-width: 350px;
+    }
 
 
 }
 
 
 @media screen and (max-width: 520px) {
+
+    /* sobre */
+    section.sobre {
+        padding: 30px 20px 20px;
+
+    }
+
+    .sobre .itens-container .txt-itens h2 {
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+        color: #613737;
+    }
+
+    .sobre .itens-container .txt-itens p {
+        margin-bottom: 50px;
+        font-size: 1rem;
+
+    }
+
+
     /* serviços */
 
     .servicos .txt-servicos h2 {
         margin: 20px 0;
+        font-size: 2.3rem;
 
     }
 
     .servicos .tipos-de-servicos-box {
-        width: 800px;
+        width: 510px;
         height: 260px;
     }
 
     section.servicos {
-        height: 800px;
+        max-height: 800px;
     }
 
 
@@ -463,70 +489,50 @@
 
     }
 
+    /* hortaliças */
+
+    .hortalicas .titulo-hortalicas h2 {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .hortalicas .hortalicas-container .hortalicas-box {
+        gap: 70px;
+    }
 
 
 }
 
 
-
-
-@media screen and (max-width: 392px) {
+@media screen and (max-width: 431px) {
 
     html {
         scroll-padding-top: 16px;
     }
 
-
-    /* hero */
-
-    section.hero-site {
-        height: 115vh;
-
-    }
-
-    .hero-site img {
-        max-width: 500px;
-        z-index: 2;
-    }
-
     /* sobre */
 
-    section.sobre {
-        padding: 30px 30px 60px;
-
-    }
-
     .sobre .itens-container .txt-itens h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-bottom: 20px;
-        color: #613737;
     }
 
     .sobre .itens-container .txt-itens p {
-        text-align: justify;
         margin-bottom: 50px;
-        font-size: 1.2rem;
-        line-height: 2rem;
-    }
+        font-size: 1rem;
 
-
-    .sobre .itens-container .txt-itens a {
-        text-decoration: none;
-        color: white;
-        background-color: #613737;
-        padding: 15px;
-        border-radius: 40px;
     }
 
 
     /* produtos */
 
     section.produtos {
-        padding: 90px 30px;
+        padding: 50px 20px;
     }
 
     .produtos .titulo-produtos h2 {
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin-bottom: 10px;
     }
 
@@ -542,97 +548,69 @@
     /* serviços */
 
     section.servicos {
-        padding: 75px 0 80px;
-
+        padding: 20px 0 80px;
     }
 
-    .servicos .txt-servicos h2 {
-        font-size: 2.5rem;
-        margin: 20px 0;
-    }
 
     .servicos .tipos-de-servicos-box {
-        width: 800px;
-        height: 330px;
+        width: 400px;
+        height: 310px;
     }
 
     section.servicos {
-        height: 980px;
-    }
-
-    .txt-servicos-box p {
-        text-align: left;
-        font-size: 1.3rem;
-
-    }
-
-    .txt-servicos-box ul li {
-        font-size: 1.3rem;
+        max-height: 900px;
     }
 
     /* certificação */
 
+    section.certificacao {
+        padding: 60px 0;
+    }
+
 
     .certificacao .txt-certificacao h3 {
-        font-size: 1.6rem;
-        line-height: 35px;
-        margin: 0 0 30px;
-        padding: 0;
+        font-size: 1.4rem;
+        /* margin: 0 0 30px;
+       */
     }
 
 
     .certificacao .txt-certificacao .img-certificacao img {
-        width: 110px;
+        max-width: 100px;
         max-height: 200px;
-
     }
 
-    /* compromissos */
 
-    .compromisso .titulo-compromisso h2 {
-        font-size: 2.3rem;
-        line-height: 45px;
+    .certificacao .txt-certificacao .img-certificacao {
+        display: flex;
+        align-items: center;
+        gap: 30px;
     }
 
-    .txt-compromisso .compromisso-container .txt-compromisso-box p {
-        font-size: 1.3rem;
-    }
 
     /* história */
 
-    section.historia {
-        padding: 40px 20px;
-    }
-
-
-    .historia .txt-itens-historia p {
-        font-size: 1.15rem;
-
-    }
 
     .historia .img-itens-historia img {
-        max-width: 330px;
+        max-width: 350px;
     }
 
     /* hortaliças */
 
     section.hortalicas {
-        padding: 150px 20px 30px;
+        padding: 150px 10px 30px;
     }
 
     .hortalicas-box .hortalicas-box-img img {
-        max-width: 150px;
+        max-width: 120px;
     }
 
-
-    .hortalicas .titulo-hortalicas h2 {
-        font-size: 2rem;
-        text-align: center;
-        line-height: 40px;
+    .hortalicas .hortalicas-container .hortalicas-box {
+        gap: 50px;
     }
+
 
     /* footer */
-
 
     footer {
         padding: 30px 0 20px;
@@ -651,5 +629,48 @@
         width: 40%;
 
     }
+
+    /* contato */
+
+    .contato .txt-contato .icons-contato a {
+        font-size: 1.5rem;
+        width: 350px;
+        padding: 40px 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 394px) {
+
+    /* serviços */
+    .servicos .tipos-de-servicos-box {
+        max-width: 390px;
+        height: 330px;
+    }
+
+    section.servicos {
+        height: 920px;
+    }
+
+    .txt-servicos-box {
+        padding: 20px 20px 10px;
+    }
+
+    /* contato */
+    .contato .txt-contato h3 {
+        font-size: 2.3rem;
+    }
+
+    /* footer */
+
+    footer .bottom-footer p {
+        font-size: 0.7rem;
+    }
+
+
+
+
+
 
 }
