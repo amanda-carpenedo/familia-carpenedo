@@ -204,7 +204,7 @@ body.no-overflow {
 
 section.hero-site {
     height: 98vh;
-    background: url(../hero/foto-viveiro15.png);
+    background: url(../hero/foto-viveiro15.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -296,7 +296,6 @@ section.produtos {
     font-size: 3rem;
     margin-bottom: 30px;
     color: #613737;
-
 }
 
 .produtos .titulo-produtos p {
@@ -352,24 +351,21 @@ section.servicos {
 }
 
 
-.servicos .servicos-container {
+.servicos .servicos-container  {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
 
-.servicos .tipos-de-servicos-box {
-    border: 4px solid white;
-    margin: 20px;
-    width: 400px;
-    height: 330px;
-    box-shadow: 10px -10px 1.3px #f9e8e1;
-    border-radius: 80px;
-}
-
 .txt-servicos-box {
     padding: 30px;
+    border: 4px solid white;
+    margin: 20px;
+    max-width: 400px;
+    max-height: 330px;
+    box-shadow: 10px -10px 1.3px #f9e8e1;
+    border-radius: 80px;
 }
 
 .txt-servicos-box ul {
@@ -381,7 +377,6 @@ section.servicos {
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
-
 
 
 .txt-servicos-box h4 {
@@ -512,7 +507,6 @@ section.contato {
     font-size: 2.5rem;
     margin: 20px 0 30px;
     font-weight: 600;
-
 }
 
 .contato>.overlay {
@@ -676,8 +670,7 @@ section.hortalicas {
     display: flex;
     align-items: start;
     gap: 60px;
- 
-  
+   
 }
 
 

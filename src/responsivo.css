@@ -21,7 +21,6 @@
     /* serviços */
 
     section.servicos {
-        padding: 20px 0 80px;
         max-height: 700px;
     }
 
@@ -119,37 +118,56 @@
         justify-content: space-around;
     }
 
-}
 
-
-@media screen and (max-width: 974px) {
 
     /* serviços */
 
-    .txt-servicos-box {
-        padding: 15px 30px;
+    section.servicos {
+        padding: 20px 0 80px;
+        height: 100vh;
+
     }
 
     .servicos .txt-servicos h2 {
+        font-size: 2rem;
         margin: 20px 0;
-
     }
 
-    .servicos .tipos-de-servicos-box {
-        width: 800px;
-        height: 200px;
-        box-shadow: 10px -5px 1.3px #f9e8e1;
+    .txt-servicos-box h4 {
+        font-size: 1.2rem;
+    }
+
+    .servicos .servicos-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicos .txt-servicos-box {
+        padding: 20px;
+        max-width: 90%;
+        min-height: 240px;
         border-radius: 40px;
     }
 
+    .txt-servicos-box ul li {
+        font-size: 1rem;
+    }
+
+
+    .txt-servicos-box p {
+        font-size: 1rem;
+    }
 }
+
 
 
 @media screen and (max-width: 920px) {
 
     /* sobre */
     section.sobre {
-        padding: 40px 40px 50px;
+        padding: 40px 15px 50px;
 
     }
 
@@ -167,7 +185,7 @@
 
     section.hero-historia {
         height: 15vh;
-         
+
     }
 
 
@@ -177,12 +195,6 @@
 
 
 @media screen and (max-width: 810px) {
-
-    /* serviços */
-    .servicos .tipos-de-servicos-box {
-        width: 800px;
-        height: 230px;
-    }
 
     /* certificação */
     .certificacao .txt-certificacao h3 {
@@ -232,11 +244,6 @@
 
     }
 
-    /* hortaliças */
-
-    section.hortalicas {
-        padding: 150px 60px 80px;
-    }
 
 }
 
@@ -264,21 +271,6 @@
 
 
 @media screen and (max-width: 640px) {
-
-    /* serviços */
-    .servicos .tipos-de-servicos-box {
-        width: 600px;
-        height: 230px;
-    }
-
-    .txt-servicos-box ul li {
-        font-size: 1.1rem;
-        margin-bottom: 10px;
-    }
-
-    .txt-servicos-box p {
-        font-size: 1.1rem;
-    }
 
     /* hortaliças */
 
@@ -415,42 +407,18 @@
 
 @media screen and (max-width: 520px) {
 
-    /* sobre */
-    section.sobre {
-        padding: 30px 20px 20px;
-
-    }
-
     .sobre .itens-container .txt-itens h2 {
         font-size: 2.2rem;
         margin-bottom: 20px;
-        color: #613737;
+
     }
 
     .sobre .itens-container .txt-itens p {
         margin-bottom: 50px;
-        font-size: 1rem;
+        font-size: 0.9rem;
+        line-height: 25px;
 
     }
-
-
-    /* serviços */
-
-    .servicos .txt-servicos h2 {
-        margin: 20px 0;
-        font-size: 2.3rem;
-
-    }
-
-    .servicos .tipos-de-servicos-box {
-        width: 510px;
-        height: 260px;
-    }
-
-    section.servicos {
-        max-height: 800px;
-    }
-
 
     /* história */
 
@@ -518,12 +486,6 @@
         margin-bottom: 20px;
     }
 
-    .sobre .itens-container .txt-itens p {
-        margin-bottom: 50px;
-        font-size: 1rem;
-
-    }
-
 
     /* produtos */
 
@@ -549,17 +511,9 @@
 
     section.servicos {
         padding: 20px 0 80px;
+        min-height: 740px;
     }
 
-
-    .servicos .tipos-de-servicos-box {
-        width: 400px;
-        height: 310px;
-    }
-
-    section.servicos {
-        max-height: 900px;
-    }
 
     /* certificação */
 
@@ -567,19 +521,15 @@
         padding: 60px 0;
     }
 
-
     .certificacao .txt-certificacao h3 {
         font-size: 1.4rem;
-        /* margin: 0 0 30px;
-       */
-    }
 
+    }
 
     .certificacao .txt-certificacao .img-certificacao img {
         max-width: 100px;
         max-height: 200px;
     }
-
 
     .certificacao .txt-certificacao .img-certificacao {
         display: flex;
@@ -634,7 +584,7 @@
 
     .contato .txt-contato .icons-contato a {
         font-size: 1.5rem;
-        width: 350px;
+        max-width: 330px;
         padding: 40px 20px;
     }
 
@@ -643,30 +593,121 @@
 
 @media screen and (max-width: 394px) {
 
-    /* serviços */
-    .servicos .tipos-de-servicos-box {
-        max-width: 390px;
-        height: 330px;
-    }
-
-    section.servicos {
-        height: 920px;
-    }
-
-    .txt-servicos-box {
-        padding: 20px 20px 10px;
-    }
-
     /* contato */
     .contato .txt-contato h3 {
         font-size: 2.3rem;
     }
 
     /* footer */
-
     footer .bottom-footer p {
         font-size: 0.7rem;
     }
+
+
+    /* certificação */
+    .certificacao .txt-certificacao .img-certificacao img {
+        max-width: 85px;
+        max-height: 200px;
+    }
+
+    .certificacao .txt-certificacao .img-certificacao {
+        gap: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 321px) {
+    /* serviços */
+
+    section.servicos {
+        padding: 20px 0 80px;
+        min-height: 840px;
+    }
+
+    .txt-servicos-box p {
+        text-align: left;
+
+    }
+
+    /* contato */
+
+    .contato .txt-contato .icons-contato a {
+        font-size: 1rem;
+        max-width: 300px;
+        padding: 40px 20px;
+    }
+
+    /* produtos */
+
+    .produtos .titulo-produtos h2 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    /* certificaçao */
+
+    .compromisso .titulo-compromisso h2 {
+        font-size: 2rem;
+        line-height: 35px;
+
+    }
+
+    /* hortaliças */
+
+
+    .hortalicas-box .hortalicas-box-img img {
+        max-width: 75px;
+    }
+
+    .hortalicas-box .hortalicas-txt {
+        width: 175px;
+    }
+
+
+    .hortalicas-box .hortalicas-txt h3 {
+        font-size: 1rem;
+    }
+
+    .hortalicas .titulo-hortalicas h2 {
+        font-size: 1.8rem;
+        line-height: 35px;
+    }
+
+    .hortalicas-box .hortalicas-txt ul li {
+        font-size: 0.9rem;
+    }
+
+
+    /* contatos */
+
+    section.contato {
+        height: 400px;
+
+    }
+
+
+    .contato .txt-contato h3 {
+        font-size: 2rem;
+        margin: 20px 0 5px;
+
+    }
+
+    /* galeria */
+
+    .galeria .img-galeria img {
+        max-width: 320px;
+ 
+    }
+    
+    /* footer */
+
+    footer .footer-container .left-footer p,
+    footer .footer-container .right-footer {
+        font-size: 0.8rem;
+    }
+
+
 
 
 
