@@ -590,6 +590,16 @@ footer .footer-container .left-footer img {
     margin-bottom: 10px;
 }
 
+footer .footer-container .right-footer p span {
+text-decoration: none;
+cursor: default;
+
+}
+
+
+
+
+
 footer .bottom-footer {
     display: flex;
     align-items: center;
@@ -736,7 +746,7 @@ header .menu-desktop-historia nav ul li a:hover {
 
 section.hero-historia {
     height: 35vh;
-    background: url(../hero/foto-viveiro15.png);
+    background: url(../hero/foto-viveiro15.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

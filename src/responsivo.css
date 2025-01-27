@@ -514,6 +514,14 @@
         min-height: 740px;
     }
 
+    section.servicos {
+       background-attachment:scroll;
+    
+    }
+
+
+
+
 
     /* certificação */
 
@@ -587,6 +595,19 @@
         max-width: 330px;
         padding: 40px 20px;
     }
+
+    section.contato {
+        background-attachment:scroll;
+    
+    }
+
+
+
+
+
+
+
+
 
 }
 
