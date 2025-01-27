@@ -440,7 +440,8 @@
     }
 
     .historia .txt-itens-historia p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        line-height: 25px;
 
     }
 
@@ -766,7 +767,6 @@
 
     .historia .txt-itens-historia p {
         line-height: 25px;
-
     }
 
 
