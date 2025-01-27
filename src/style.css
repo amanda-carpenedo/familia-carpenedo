@@ -590,9 +590,9 @@ footer .footer-container .left-footer img {
     margin-bottom: 10px;
 }
 
-[data-no-link] {
+span[data-no-link] {
 text-decoration:none;
-cursor: default;
+pointer-events: none;
 
 
 }
