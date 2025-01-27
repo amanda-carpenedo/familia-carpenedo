@@ -590,9 +590,9 @@ footer .footer-container .left-footer img {
     margin-bottom: 10px;
 }
 
-span[data-no-link] {
+footer .footer-container .right-footer a {
 text-decoration:none;
-pointer-events: none;
+color: black;
 
 
 }
