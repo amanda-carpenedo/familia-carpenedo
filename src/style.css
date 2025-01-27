@@ -590,10 +590,10 @@ footer .footer-container .left-footer img {
     margin-bottom: 10px;
 }
 
-footer .footer-container .right-footer span {
+[data-no-link] {
 text-decoration:none;
 cursor: default;
-color: #000000;
+
 
 }
 
