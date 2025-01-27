@@ -398,7 +398,7 @@
 
     /* galeria */
     .galeria .img-galeria img {
-        max-width: 350px;
+        max-width: 340px;
     }
 
 
@@ -476,10 +476,9 @@
 @media screen and (max-width: 431px) {
 
     html {
-        scroll-padding-top: 16px;
+        scroll-padding-top: calc(4vh + 27px);
     }
 
-    /* sobre */
 
     .sobre .itens-container .txt-itens h2 {
         font-size: 2rem;
@@ -511,14 +510,17 @@
 
     section.servicos {
         padding: 20px 0 80px;
-        min-height: 740px;
+        min-height: 760px;
     }
 
     section.servicos {
-       background-attachment:scroll;
-    
+        background-attachment: scroll;
+
     }
 
+    .servicos .txt-servicos h2 {
+        padding-top: 10px;
+    }
 
 
 
@@ -597,8 +599,8 @@
     }
 
     section.contato {
-        background-attachment:scroll;
-    
+        background-attachment: scroll;
+
     }
 
 
@@ -635,15 +637,33 @@
         gap: 20px;
     }
 
+    /* historia */
+
+    .historia .img-itens-historia img {
+        max-width: 320px;
+    }
+
+    /* galeria */
+
+    .galeria .img-galeria img {
+        max-width: 320px;
+
+    }
+
 }
 
 
 @media screen and (max-width: 321px) {
+
+    html {
+        scroll-padding-top: 3.2rem;
+    }
+
     /* serviços */
 
     section.servicos {
         padding: 20px 0 80px;
-        min-height: 840px;
+        min-height: 860px;
     }
 
     .txt-servicos-box p {
@@ -707,27 +727,60 @@
 
     }
 
-
     .contato .txt-contato h3 {
         font-size: 2rem;
         margin: 20px 0 5px;
-
     }
+
+    .contato .txt-contato .icons-contato a {
+        font-size: 2rem;
+    }
+
+    .contato .txt-contato .icons-contato p {
+        font-size: 1.1rem;
+    }
+
+
 
     /* galeria */
+    section.galeria {
+        padding: 150px 0 50px;
+
+    }
 
     .galeria .img-galeria img {
-        max-width: 320px;
- 
+        max-width: 290px;
+
     }
-    
+
     /* footer */
 
     footer .footer-container .left-footer p,
     footer .footer-container .right-footer {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
+    /* historia */
+
+    .hero-historia .titulo-historia h2 {
+        font-size: 1.7rem;
+    }
+
+    .historia .txt-itens-historia h2 {
+        font-size: 2rem;
+
+    }
+
+    .historia .txt-itens-historia p {
+        font-size: 0.9rem;
+        line-height: 25px;
+
+    }
+
+
+    .historia .img-itens-historia img {
+        max-width: 290px;
+    }
 
 
 

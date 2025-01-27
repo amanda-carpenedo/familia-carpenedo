@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 90px;
+    scroll-padding-top: 5.6rem;
 }
 
 
@@ -484,7 +484,7 @@ section.compromisso {
 
 section.contato {
     height: 500px;
-    background-image: url(../galeria/foto-viveiro16.jpg);
+    background-image: url(../galeria/foto-viveiro16.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
