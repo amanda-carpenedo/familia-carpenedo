@@ -204,7 +204,7 @@ body.no-overflow {
 
 section.hero-site {
     height: 98vh;
-    background: url(../hero/foto-viveiro15.jpg);
+    background: url(../hero/foto-viveiro16.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -332,7 +332,7 @@ section.produtos {
 section.servicos {
     padding: 20px 0 80px;
     height: 90vh;
-    background-image: url(../servicos/galeria4.jpg.png);
+    background-image: url(../servicos/galeria5.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -484,7 +484,7 @@ section.compromisso {
 
 section.contato {
     height: 500px;
-    background-image: url(../galeria/foto-viveiro16.jpg);
+    background-image: url(../hero/foto-viveiro16.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -636,6 +636,19 @@ section.galeria {
     border-radius: 10px;
 }
 
+.galeria .img-galeria .container-img-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria .img-galeria .container-img-galeria p {
+    font-size: 0.8rem;
+}
+
+
+
+
 /* HEADER GALERIA */
 
 
@@ -743,7 +756,7 @@ header .menu-desktop-historia nav ul li a:hover {
 
 section.hero-historia {
     height: 35vh;
-    background: url(../hero/foto-viveiro15.jpg);
+    background: url(../hero/foto-viveiro16.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -762,6 +775,7 @@ section.hero-historia {
     font-weight: 500;
 }
 
+
 /* SEÇÃO QUEM SOMOS */
 
 section.historia {
@@ -779,7 +793,6 @@ section.historia {
     color: #613737;
 }
 
-
 .historia .txt-itens-historia p {
     text-align: justify;
     margin-bottom: 40px;
@@ -796,9 +809,18 @@ section.historia {
     gap: 50px;
 }
 
-
-
 .historia .img-itens-historia img {
     max-width: 400px;
     border-radius: 10px;
+}
+
+.historia .img-itens-historia .container-foto-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.historia .img-itens-historia .container-foto-historia p {
+    font-size: 0.8rem;
 }
